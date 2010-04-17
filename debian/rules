@@ -50,7 +50,18 @@ clean:
 
 	# Add here commands to clean up after the build process.
 	[ ! -f Makefile ] || $(MAKE) distclean
-	rm -f config.sub config.guess
+	rm -rf config.sub config.guess \
+       	Makefile.in \
+        aclocal.m4 \
+        configure \
+        cpp/Makefile.in \
+        py/Makefile.in \
+        py/fb303/FacebookService-remote \
+        py/fb303/FacebookService.py \
+        py/fb303/__init__.py \
+        py/fb303/constants.py \
+        py/fb303/ttypes.py \
+        py/gen-py/
 
 	dh_clean 
 
