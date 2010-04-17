@@ -1,0 +1,17 @@
+thrift-fb303 (20080411-r930898-3) karmic; urgency=low
+
+  *  Set the distro to karmic
+
+ -- Wouter de Bie <wouter@deltaprojects.se>  Mon, 12 Apr 2010 10:04:34 +0200
+
+thrift-fb303 (20080411-r930898-2) unstable; urgency=low
+
+  *  Added python dependencies
+
+ -- Wouter de Bie <wouter@deltaprojects.se>  Mon, 12 Apr 2010 10:04:34 +0200
+
+thrift-fb303 (20080411-r930898-1) unstable; urgency=low
+
+  * Initial release 
+
+ -- Wouter de Bie <wouter@deltaprojects.se>  Mon, 12 Apr 2010 10:04:34 +0200
